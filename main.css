@@ -352,14 +352,14 @@ body {
 }
 
 .progress-line.html span {
-  width: 90%;
+  width: 50%;
 }
 
 .progress-line.css span {
-  width: 80%;
+  width: 50%;
 }
 .progress-line.javascript span {
-  width: 60%;
+  width: 50%;
 }
 .progress-line.react span {
   width: 50%;
@@ -371,7 +371,7 @@ body {
   width: 50%;
 }
 .progress-line.sql span {
-  width: 80%;
+  width: 50%;
 }
 .progress-line span::after {
   position: absolute;
@@ -386,15 +386,15 @@ body {
   opacity: 0;
 }
 
-.progress-line.html span::after {
-  content: "90%";
+/* .progress-line.html span::after {
+  content: "50%";
 }
 
 .progress-line.css span::after {
-  content: "80%";
+  content: "50%";
 }
 .progress-line.javascript span::after {
-  content: "60%";
+  content: "50%";
 }
 .progress-line.react span::after {
   content: "50%";
@@ -407,9 +407,9 @@ body {
   content: "50%";
 }
 .progress-line.sql span::after {
-  content: "75%";
+  content: "50%";
 }
-
+ */
 .progress-line span::before {
   content: "";
   position: absolute;
@@ -1039,21 +1039,21 @@ body {
     padding: 10px;
     margin-left: 0px;
   }
-  .bar .info .addhtml::before {
-    content: "90%";
+  /*   .bar .info .addhtml::before {
+    content: "50%";
   }
   .bar .info .addcss::before {
-    content: "80%";
+    content: "50%";
   }
-  .bar .info .addpy::before {
-    content: "75%";
+  .bar .info .addsql::before {
+    content: "50%";
   }
   .bar .info .addjava::before {
     content: "50%";
   }
   .bar .info .addc::before {
     content: "50%";
-  }
+  } */
 
   /*project*/
   .main-text {
@@ -1208,21 +1208,6 @@ body {
   }
   .radial-bar .text {
     left: 25%;
-  }
-  .bar .info .addhtml::before {
-    content: "90%";
-  }
-  .bar .info .addcss::before {
-    content: "80%";
-  }
-  .bar .info .addpy::before {
-    content: "75%";
-  }
-  .bar .info .addjava::before {
-    content: "50%";
-  }
-  .bar .info .addc::before {
-    content: "50%";
   }
 
   /*project*/
